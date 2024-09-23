@@ -43,22 +43,6 @@ contract Character {
         characterData.health++;
         return characterData.health;
     }
-
-    function getBalance() public view returns (uint256) {
-        return characterData.balance;
-    }
-
-    function getLastPaymentDate() public view returns (uint256) {
-        return characterData.lastPaymentDate;
-    }
-
-    function getLastPaymentAmount() public view returns (uint256) {
-        return characterData.lastPaymentAmount;
-    }
-
-    function getHealth() public view returns (uint256) {
-        return characterData.health;
-    }
 }
 
 // contract CharacterManger {
